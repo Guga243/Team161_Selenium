@@ -64,7 +64,7 @@ public class C01_ByClassName {
         // acilan urun sayfasindeki urun aciklamisinda
         // case sensetive olmaksinizin "phone" bulundugunu test edin
 
-        Thread.sleep(3000);
+        Thread.sleep(3100);
         //WebElement urunAciklamaElement = driver.findElement(By.className("prod-detail"));
         WebElement urunAciklamaElement = driver.findElement(By.xpath("//div[@class=' heading-sm mb-4']"));
 
