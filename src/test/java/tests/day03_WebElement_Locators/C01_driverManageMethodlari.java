@@ -31,7 +31,7 @@ public class C01_driverManageMethodlari {
         System.out.println("duzeltmeden sonra boyut "+driver.manage().window().getSize()); // (1051, 798)
         Thread.sleep(5000);
         System.out.println("duzeltmeden sonra konum "+driver.manage().window().getPosition());
-        Thread.sleep(5000);
+        Thread.sleep(5100);
 
 
         driver.quit();
