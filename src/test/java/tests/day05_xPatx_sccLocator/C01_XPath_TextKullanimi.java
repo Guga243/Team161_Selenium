@@ -36,7 +36,7 @@ public class C01_XPath_TextKullanimi {
         // 5- add/remove elements yazisinin gorunurlugunu test edin
         WebElement addRemoveYazisi = driver.findElement(By.xpath("//h2[text()='Add/Remove Elements']"));
         if (addRemoveYazisi.isDisplayed()){
-            System.out.println("add/remove test passed");
+            System.out.println("add/remove test passedd");
         }else {
             System.out.println("add/remove test failed");
         }
